@@ -13,12 +13,11 @@ from base64 import b32decode, b16encode
 
 
 class PublicHD(Indexer):
-    version = "0.1"
+    version = "0.1.1"
     identifier = "be.unlord.publichd"
     _config = {'enabled': True,
-               'comment_on_download': False,
                'verify_ssl_certificate': True,
-               'use_torrentcache' : False,
+               'use_torrentcache' : True,
                'torrentcache_link' : 'http://torrage.com/torrent/%s.torrent'
                }
     config_meta = {'use_torrentcache': {'human': 'Use torrent cache links',
@@ -102,5 +101,3 @@ class PublicHD(Indexer):
         url = self.c.torrentcache_link % magnet_hash
         return url
 
-    def commentOnDownload(self, download):
-        return True

@@ -2,6 +2,22 @@
     "name": "The Unlord's XDM Plugins", 
     "info_url": "https://github.com/jmichiel/XDM-Plugins/tree/master", 
     "plugins": {
+        "be.unlord.file.size": [
+            {
+                "major_version": 0, 
+                "minor_version": 1, 
+                "name": "File Size", 
+                "type": "DownloadFilter", 
+                "format": "zip", 
+                "desc": "This plugin will filter out downloads by file size.", 
+                "xdm_version": [
+                    0, 
+                    5, 
+                    9
+                ], 
+                "download_url": "https://github.com/jmichiel/XDM-Plugins/archive/master.zip"
+            }
+        ], 
         "be.unlord.publichd": [
             {
                 "major_version": 0, 
@@ -13,7 +29,7 @@
                 "xdm_version": [
                     0, 
                     5, 
-                    0
+                    9
                 ], 
                 "download_url": "https://github.com/jmichiel/XDM-Plugins/archive/master.zip"
             }
