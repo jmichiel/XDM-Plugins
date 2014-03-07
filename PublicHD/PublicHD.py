@@ -13,7 +13,7 @@ from base64 import b32decode, b16encode
 
 
 class PublicHD(Indexer):
-    version = "0.1.1"
+    version = "0.2"
     identifier = "be.unlord.publichd"
     _config = {'enabled': True,
                'verify_ssl_certificate': True,
