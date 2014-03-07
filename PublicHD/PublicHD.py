@@ -4,7 +4,7 @@ Created on 16-nov.-2013
 @author: unlord
 '''
 from xdm.plugins import Indexer, log, Download
-from lib import requests
+import requests
 from bs4 import BeautifulSoup
 from urlparse import parse_qs
 import re

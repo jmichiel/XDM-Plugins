@@ -21,7 +21,7 @@
         "be.unlord.publichd": [
             {
                 "major_version": 0, 
-                "minor_version": 1, 
+                "minor_version": 2, 
                 "name": "PublicHD", 
                 "type": "Indexer", 
                 "format": "zip", 
@@ -29,7 +29,7 @@
                 "xdm_version": [
                     0, 
                     5, 
-                    9
+                    15
                 ], 
                 "download_url": "https://github.com/jmichiel/XDM-Plugins/archive/master.zip"
             }
